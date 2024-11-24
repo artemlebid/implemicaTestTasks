@@ -291,7 +291,7 @@ public class SecondTask {
                 if (neighbors > 0 && neighbors <= maxValue)
                     isValidNeighborsCount = true;
                 else
-                    System.out.printf("Number of neighbors count be less than 0 and also no more available cities. Available %d neighbors\n", maxValue - 1);
+                    System.out.printf("Number of neighbors count be less than 0 and also no more available cities. Available %d neighbors\n", maxValue);
 
             } catch (Exception e){
                 System.out.println("Enter a valid number");
